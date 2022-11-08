@@ -1,0 +1,95 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  margin:0px;
+  padding:0px;
+}
+img{
+  width:100px;
+  border:3px solid white;
+  border-radius:50%;
+}
+h1{
+  font-size:2.0rem;
+  text-align:center;
+}
+a{
+  color:white;
+  font-size:1.2rem;
+  text-decoration:none;
+}
+p{
+  font-size:1.2rem;
+  text-align:justify;
+}
+[class*="col-"]{
+  float:left;
+  padding:10px;
+}
+/*for mobile */
+[class*="col-"]{
+  width:100%;
+  /*navbar design starts*/
+}
+.navbar{
+  background-color:#40868b;
+  padding:1% 7%;
+  text-align:center;
+}
+.navbar h1{
+  color:white;
+  margin:0;
+  padding-top:10px;
+}
+.navbar-menu{
+  display:flex;
+  flex-direction:column;
+  text-transform:uppercase;
+}
+.navbar-menu a{
+  background-color:#0c6168;
+  border-radius:10px;
+  margin:7px 0px;
+  padding:10px;
+}
+.navbar-menu a:hover{
+  background-color:gray;
+}
+.navbar::after{
+  content:'';
+  display:table;
+  clear:both;
+}
+/*navbar desing end*/
+/*frofile desing end from here*/
+.frofile{
+  padding: 100px 10px;
+  text-align:center;
+}
+.frofile .top-weather-icon{
+ margin-left:200px;
+ transition: transform 3s;
+ 
+}
+.frofile .top-weather-icon:hover{
+  transform:rotate(360deg);
+}
+.frofile-dech h1{
+  font-family:arial black;
+}
+.frofile-dech p{
+  color:gray;
+  margin:0 auto;
+  text-align:center;
+  width:90%;
+}
+.frofile .bottom-weather-icon{
+ margin-right:200px;
+ transition: transform 3s;
+ 
+}
+.frofile .bottom-weather-icon:hover{
+  transform:rotate(360deg);
+}
+/*frofile desing end from here*/

@@ -1,0 +1,46 @@
+
+.nav-logo{
+  text-align:left ;
+}
+.nav-heading h1{
+  text-align:center;
+}
+.navbar-menu{
+  flex-direction: row;
+  justify-content:flex-end;
+}
+.navbar-menu a{
+  padding:5px 10px;
+  background-color: transparent;
+}
+/*frofile desing end from here*/
+.frofile{
+  padding: 100px 10px;
+  text-align:center;
+}
+.frofile .top-weather-icon{
+ margin-left:800px;
+ transition: transform 3s;
+ 
+}
+.frofile .top-weather-icon:hover{
+  transform:rotate(360deg);
+}
+.frofile-dech h1{
+  font-family:arial black;
+}
+.frofile-dech p{
+  color:gray;
+  margin:0 auto;
+  text-align:center;
+  width:90%;
+}
+.frofile .bottom-weather-icon{
+ margin-right:800px;
+ transition: transform 3s;
+ 
+}
+.frofile .bottom-weather-icon:hover{
+  transform:rotate(360deg);
+}
+/*frofile desing end from here*/
